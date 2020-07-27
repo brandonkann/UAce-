@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/imageView"
+        android:text="Open Study Solutions"
+        android:textColorHighlight="@color/purple"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="18dp"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="316dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:drawableLeft="@drawable/ic_action_user1"
+        android:ems="10"
+        android:hint="Email"
+        android:fontFamily="serif"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="@color/lightColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:fontFamily="serif"
+        android:id="@+id/editTextPassword"
+        android:layout_width="316dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/lightColor"
+        android:textSize="20sp" />
+
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/button1"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        app:cardBackgroundColor="@color/purple"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <Button
+                android:id="@+id/loginbutton"
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                 />
+
+
+
+            <TextView
+                android:fontFamily="serif"
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="35sp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:fontFamily="serif"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="555dp"
+        android:text= "Create an Account"
+        android:textSize= "20dp"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        android:textColor="@color/purple"
+        />
+
+
+
+    <ProgressBar
+        android:id = "@+id/progressbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_below="@+id/button"/>
+
+
+
+</RelativeLayout>

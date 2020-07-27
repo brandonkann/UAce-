@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">uACE</string>
+    <string name="title_activity_register">Register</string>
+
+    <string name="title_activity_maininterface">maininterface</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="tip_1">Tip 1. Discipline is key, set a time everyday to study and lock that time to only studying, make it a habit/</string>
+    <string name="tip_2">Tip 2. Revise Revise Revise, keep up to date by reviewing with newly learned concepts and stay on top with your homework.</string>
+    <string name="tip_3">Tip 3. Have daily objectives and long term dreams, short term goals keep you motivated and long dreams remind you why you are working this hard!</string>
+    <string name="tip_4">Tip 4. Keep your distractions away, use your phone only to study and other distractions far away from you, this will increase you workflow tremendously.</string>
+    <string name="tip_5">Tip 5. Take advantage of your resources, if you are struggling, find help! We are here to help you with your questions! </string>
+</resources>

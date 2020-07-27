@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tips">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/imagelogo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="uACE Study Tips"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="40dp"
+        android:id="@+id/text_tips"
+        android:layout_below="@+id/imagelogo"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to Succeed in Highschool"
+        android:layout_below="@+id/text_tips"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:id="@+id/tip_header"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tip_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tips1"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:text= "@string/tip_1"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tips1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tips2"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text= "@string/tip_2"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tips2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tips3"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text= "@string/tip_3"/>
+
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tips3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/tips4"
+        android:fontFamily="serif"
+        android:text= "@string/tip_4"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tips4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tips5"
+        android:fontFamily="serif"
+        android:text= "@string/tip_5"/>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

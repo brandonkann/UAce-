@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".math"
+    android:background="@drawable/gradient">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="What Grade are You: "
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor ="@color/lightColor"/>
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"/>
+    />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="K-Grade 4"
+        android:layout_marginTop="60dp"
+            android:textColor="@color/lightColor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Grade 5"
+        android:layout_marginTop="110dp"
+        android:textColor="@color/lightColor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:background="@android:color/transparent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Grade 6"
+        android:layout_marginTop="160dp"
+        android:textColor="@color/lightColor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="210dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:textColor="@color/lightColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Grade 7"
+        android:layout_marginTop="210dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:textColor="@color/lightColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Grade 8"
+        android:layout_marginTop="260dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="310dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:textColor="@color/lightColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Grade 9"
+        android:layout_marginTop="310dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="360dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:textColor="@color/lightColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Grade 10"
+        android:layout_marginTop="360dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="410dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:textColor="@color/lightColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Grade 11"
+        android:layout_marginTop="410dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="460dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:textColor="@color/lightColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Grade 12"
+        android:layout_marginTop="460dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="510dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:textColor="@color/lightColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="First Year Math"
+        android:layout_marginTop="510dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:textColor="@color/lightColor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:text="Second Year Math"
+        android:layout_marginTop="560dp"/>
+
+
+</RelativeLayout>

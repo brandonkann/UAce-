@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#fff"
+    tools:context=".Register">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:textColor ="@color/purple"
+        android:text="Create your Account"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="316dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:drawableLeft="@drawable/ic_action_user2"
+        android:background="@color/grey"
+        android:backgroundTint="@color/lightColor"
+        android:ems="10"
+        android:hint="Your Email"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:backgroundTint="@color/lightColor"
+        android:id="@+id/editTextPassword"
+        android:layout_width="316dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:background="@color/grey"
+        android:ems="10"
+        android:hint="Your Password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <EditText
+        android:backgroundTint="@color/lightColor"
+        android:id="@+id/editText3"
+        android:layout_width="316dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:drawableLeft="@drawable/ic_action_user4"
+        android:background="@color/grey"
+        android:ems="10"
+        android:hint="Enter your School(Optional)"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:backgroundTint="@color/lightColor"
+        android:id="@+id/editText4"
+        android:layout_width="316dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:drawableLeft="@drawable/ic_action_user3"
+        android:background="@color/grey"
+        android:ems="10"
+        android:hint="Enter your Grade/Year(Optional)"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "500dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:text="Create" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "575dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:textColor ="#ffffff"
+
+        android:text="  Have an account? Login  " />
+
+    <ProgressBar
+        android:id = "@+id/progressbar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_below="@+id/button3"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "937878434151",
+    "firebase_url": "https://fortify-899c4.firebaseio.com",
+    "project_id": "fortify-899c4",
+    "storage_bucket": "fortify-899c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937878434151:android:d4e4dc7e9f979138f9bfc2",
+        "android_client_info": {
+          "package_name": "com.boss.fortify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937878434151-98sagoka15boff2gs2p65oic4regs6a9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boss.fortify",
+            "certificate_hash": "75f6b1b9fa496fbd3922ef200f4090087acaae77"
+          }
+        },
+        {
+          "client_id": "937878434151-cunv4141eeu4ssbjp5vi0skpqicada2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvTFHzbxJqmOnHshNkqs2vJpmGLZ7akRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937878434151-cunv4141eeu4ssbjp5vi0skpqicada2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
